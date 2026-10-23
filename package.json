@@ -1,0 +1,16 @@
+{
+  "name": "organos-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OrganOS TransplantLink Clinical Decision Support System",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix frontend",
+    "backend": "python run_backend.py"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.3"
+  }
+}
